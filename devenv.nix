@@ -9,12 +9,15 @@
   languages.rust = {
     enable = true;
     lsp.enable = true;
+    channel = "nightly";
+    targets = [ "thumbv7em-none-eabihf" ];
     components = [
       "rustc"
       "cargo"
       "clippy"
       "rustfmt"
       "rust-analyzer"
+      "rust-src"
     ];
   };
 
