@@ -17,3 +17,6 @@ bench = false
 
 [dependencies]
 bootloader = "0.9.35"
+lazy_static = { version = "1.5.0", features = ["spin_no_std"] }
+spin = "0.12.3"
+volatile = "0.2.7"
