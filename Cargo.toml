@@ -14,3 +14,6 @@ name = "rust_os"
 path = "./src/main.rs"
 test = false
 bench = false
+
+[dependencies]
+bootloader = "0.9.35"
